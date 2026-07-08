@@ -1,0 +1,11 @@
+# TouchDesigner auto-backup increments (e.g. project.1.toe, project.2.toe)
+project.[0-9]*.toe
+*.toe.[0-9]*
+
+# TD cache / backup folders
+Backup/
+Cache/
+__pycache__/
+*.pyc
+
+.DS_Store
